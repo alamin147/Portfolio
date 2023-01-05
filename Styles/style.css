@@ -7,13 +7,13 @@
 
 .nav-title {
     font-weight: 800;
-font-size: 45px;
-line-height: 61px;
+    font-size: 45px;
+    line-height: 61px;
 
 }
 
 
-.header{
+.header {
     background: #FFF8F3;
     background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
@@ -60,7 +60,7 @@ nav ul {
 
 
 .banner {
-    margin:0 50px 0 200px;
+    margin: 0 50px 0 200px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -68,25 +68,25 @@ nav ul {
 }
 
 
-#greet{
+#greet {
     font-weight: 600px;
-font-size: 45px;
+    font-size: 45px;
 }
 
 
 
-#name{
+#name {
     font-weight: 700px;
-font-size: 85px;
-margin-bottom: 20px;
+    font-size: 85px;
+    margin-bottom: 20px;
 }
 
-#impression{
+#impression {
     margin-bottom: 30px;
 }
 
 
-#dnldbtn {
+.dnldbtn {
     width: 200px;
     height: 64px;
     left: 230px;
@@ -103,7 +103,7 @@ margin-bottom: 20px;
 }
 
 
-#contact{
+#contact {
     border-color: #FD6E0A;
     border-style: solid;
     width: 160px;
@@ -117,27 +117,27 @@ margin-bottom: 20px;
     background-color: white;
     color: #FD6E0A;
     border-radius: 5px;
-    
+
 }
 
 
 /* sections */
 
-main{
+.main-div {
     max-width: 1140px;
     margin: 0 auto;
 }
 
 
 
-#about{
+#about {
     margin-top: 130px;
     background: #FFF8F3;
     border-radius: 10px;
     padding: 130px 150px;
 }
 
-#aboutme{
+#aboutme {
     text-align: center;
     margin-bottom: 30px;
     font-weight: 700;
@@ -146,7 +146,7 @@ main{
 }
 
 
-#aboutpara{
+#aboutpara {
     text-align: center;
     font-size: 18px;
     color: #757575;
@@ -157,29 +157,28 @@ main{
 }
 
 
-.about-container{
+.about-container {
     display: flex;
     justify-content: space-around;
 }
 
 
-.info-title{
+.info-title {
     font-size: 20px;
     color: #757575;
 }
 
-.info-des
-{
+.info-des {
     font-weight: 700;
     font-size: 20px;
     color: #474747;
 }
 
-.what{
+.what {
     margin-top: 130px;
 }
 
-.what-title{
+.what-title {
     margin-bottom: 100px;
     text-align: center;
     font-weight: 700;
@@ -187,25 +186,113 @@ main{
     line-height: 48px;
 }
 
-.skill{
+.skill {
     background: white;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
     border-radius: 5px;
     padding: 30px;
 }
 
-.skills-container{
+.skills-container {
     display: flex;
     gap: 24px;
 }
 
-.skill-title{
+.skill-title {
     font-size: 20px;
     font-weight: 700;
     margin-top: 30px;
     margin-bottom: 20px;
 }
 
-.skill-des{
+.skill-des {
     color: #757575;
+}
+
+
+
+
+
+/* resume */
+
+.resume-title {
+    margin-top: 130px;
+    margin-bottom: 115px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    text-align: center;
+    color: #181818;
+}
+
+.resume-container {
+    display: flex;
+    margin-bottom: 50px;
+}
+
+
+.resume-top-head {
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #474747;
+}
+
+.resume-head {
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 34px;
+    color: #474747;
+    margin-bottom: 57px;
+}
+
+
+.gap-line {
+    border: 1px solid #D1D1D1;
+    width: 500px;
+    margin-top: 30px;
+    margin-bottom: 45px;
+}
+
+.left {
+    margin-right: 100px;
+}
+
+
+.resume-download {
+    margin-left: 450px;
+    margin-bottom: 113px;
+}
+
+
+
+.form-contain {
+    display: flex;
+    justify-content: center;
+    left: 0px;
+    top: 3476px;
+    padding-right: 300px;
+    padding-top: 130px;
+    background: #FFF8F3;
+
+}
+
+.letconnect {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+    color: #181818;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+.letpara {
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+.logoImg {
+    margin-right: 24px;
+    
 }
