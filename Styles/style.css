@@ -6,14 +6,16 @@
 
 
 .nav-title {
-    font-weight: 800px;
-    font-size: 45px;
+    font-weight: 800;
+font-size: 45px;
+line-height: 61px;
+
 }
 
 
 .header{
     background: #FFF8F3;
-    background-image: url('../images/header_bg.png'), url(../images/developer.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
     background-position: right bottom, left;
 }
@@ -121,3 +123,58 @@ margin-bottom: 20px;
 }
 
 
+
+
+/* sections */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+#about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+}
+
+#aboutme{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 48px;
+}
+
+
+#aboutpara{
+    text-align: center;
+    font-size: 18px;
+    color: #757575;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+
+.about-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.info-title{
+    font-size: 20px;
+    color: #757575;
+}
+
+.info-des
+{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
